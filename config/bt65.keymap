@@ -5,6 +5,10 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+&kscan0 {
+    debounce-press-ms = <30>;
+    debounce-release-ms = <3>;
+};
 
 / {
 	keymap {
